@@ -1,5 +1,13 @@
 package org.abstractanimals.java;
 
-public class Aquila {
+public class Aquila extends Animale {
+	
+	public void verso() {
+		System.out.println("L'aquila stride");
+	}
+	
+	public void mangia() {
+		System.out.println("L'aquila mangia varie prede");
+	}
 
 }
