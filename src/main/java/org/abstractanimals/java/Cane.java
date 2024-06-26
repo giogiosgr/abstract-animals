@@ -1,6 +1,6 @@
 package org.abstractanimals.java;
 
-public class Cane extends Animale implements AnimaliNuotanti {
+public class Cane extends Animale implements INuotante {
 	
 	public void verso() {
 		System.out.println("Il cane abbaia");

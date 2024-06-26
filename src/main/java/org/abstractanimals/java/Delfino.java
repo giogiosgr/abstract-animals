@@ -1,6 +1,6 @@
 package org.abstractanimals.java;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements INuotante {
 	
 	public void verso() {
 		System.out.println("Il delfino fa vari versi");
