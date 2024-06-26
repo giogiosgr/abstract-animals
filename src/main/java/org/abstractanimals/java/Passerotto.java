@@ -1,6 +1,6 @@
 package org.abstractanimals.java;
 
-public class Passerotto {
+public class Passerotto extends Animale {
 
 	public void verso() {
 		System.out.println("Il passerotto cinguetta");
