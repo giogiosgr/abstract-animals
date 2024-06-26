@@ -1,5 +1,5 @@
 package org.abstractanimals.java;
 
-public class Animale {
+public abstract class Animale {
 
 }
