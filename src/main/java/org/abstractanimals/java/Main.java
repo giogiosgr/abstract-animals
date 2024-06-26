@@ -25,6 +25,30 @@ public class Main {
 	    usa.mangia();
 	    usa.dormi();
 	    
-	}
+	    // Utilizzo dei metodi faiVolare e faiNuotare
+	    faiNuotare(doge);
+	    faiNuotare(curioso);
+	    faiVolare(birb);
+	    faiVolare(usa);
+	        
+	    }
+	
+	/**
+	 * Metodo che ha come parametro un animale che estende l'interfaccia IVolante
+	 * 
+	 * @param animale, istanza di Animale che implementa il metodo vola
+	 */
+    public static void faiVolare(IVolante animale) {
+    	animale.vola();	
+    }
+    
+    /**
+	 * Metodo che ha come parametro un animale che estende l'interfaccia INuotante
+	 * 
+	 * @param animale, istanza di Animale che implementa il metodo nuota
+	 */ 
+    public static void faiNuotare(INuotante animale) {
+    	animale.nuota();	
+    }
 
 }
