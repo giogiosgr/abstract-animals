@@ -9,5 +9,9 @@ public class Delfino extends Animale {
 	public void mangia() {
 		System.out.println("Il delfino mangia varie prede");
 	}
+	
+	public void nuota() {
+		System.out.println("Sto nuotando!!!");
+	}
 
 }
