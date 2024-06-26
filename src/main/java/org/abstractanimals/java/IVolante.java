@@ -1,6 +1,6 @@
 package org.abstractanimals.java;
 
-public interface AnimaliVolanti {
+public interface IVolante {
 	
 	void vola();
 
