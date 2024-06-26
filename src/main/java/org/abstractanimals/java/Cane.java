@@ -14,5 +14,4 @@ public class Cane extends Animale implements INuotante {
 		System.out.println("Sto nuotando!!!");
 	}
 
-
 }
