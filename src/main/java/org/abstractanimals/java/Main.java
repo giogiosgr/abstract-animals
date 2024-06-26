@@ -38,8 +38,8 @@ public class Main {
 	 * 
 	 * @param animale, istanza di Animale che implementa il metodo vola
 	 */
-    public static void faiVolare(IVolante animale) {
-    	animale.vola();	
+    public static void faiVolare(Animale animale) {
+    	animale.dormi();	
     }
     
     /**
