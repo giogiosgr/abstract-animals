@@ -4,32 +4,32 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Istanza e utilizzo delle sottoclassi della classe astratta Animale
-		Cane doge = new Cane();
-		Passerotto birb = new Passerotto();
-		Delfino curioso = new Delfino();
-		Aquila usa = new Aquila();
+		Cane jack = new Cane();
+		Passerotto ryan = new Passerotto();
+		Delfino jacob = new Delfino();
+		Aquila smith = new Aquila();
 		
-	    doge.verso();
-	    doge.mangia();
-	    doge.dormi();
+	    jack.verso();
+	    jack.mangia();
+	    jack.dormi();
 	    
-	    birb.verso();
-	    birb.mangia();
-	    birb.dormi();
+	    ryan.verso();
+	    ryan.mangia();
+	    ryan.dormi();
 	    
-	    curioso.verso();
-	    curioso.mangia();
-	    curioso.dormi();
+	    jacob.verso();
+	    jacob.mangia();
+	    jacob.dormi();
 	    
-	    usa.verso();
-	    usa.mangia();
-	    usa.dormi();
+	    smith.verso();
+	    smith.mangia();
+	    smith.dormi();
 	    
 	    // Utilizzo dei metodi faiVolare e faiNuotare
-	    faiNuotare(doge);
-	    faiNuotare(curioso);
-	    faiVolare(birb);
-	    faiVolare(usa);
+	    faiNuotare(jack);
+	    faiNuotare(jacob);
+	    faiVolare(ryan);
+	    faiVolare(smith);
 	        
 	    }
 	
